@@ -1,0 +1,7 @@
+```text
+streamlit
+pandas
+plotly
+pandas-ta
+python-binance
+```
