@@ -4,7 +4,6 @@ from plotly.subplots import make_subplots
 import pandas_ta as ta 
 from binance.client import Client
 import streamlit as st
-import locale
 import time
 
 # --- Configuração da Página ---
@@ -373,4 +372,5 @@ with col_boleta:
                     hide_index=True # Esconde o índice do pandas
                 )
             else:
+
                 st.error("Não foi possível carregar o scanner.")
